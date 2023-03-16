@@ -1,10 +1,19 @@
-nav ul {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.nav {
     position: fixed;
     list-style-type: none;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    padding: 8px 15px;
-    width: 600px;
+    width: 50%;
     margin-top: 0;
-    margin-left: 50%;  
+    margin-left: 45vw;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: rgb(33, 33, 33);
+}
+
+.navLink {
+    cursor: grab;
 }
