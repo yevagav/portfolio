@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 .nav {
-    position: fixed;
+    position: static;
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 50%;
-    margin-top: 0;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
     margin-left: 45vw;
     font-family: 'Montserrat', sans-serif;
-    color: white;
-    background-color: rgb(33, 33, 33);
+    color: black;
+    background-color: rgb(239, 233, 233);
 }
 
 .navLink {

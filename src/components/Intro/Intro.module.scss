@@ -1,8 +1,18 @@
  @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital@1&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+ .intro {
+    background-color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+ }
 
 .intro aside {
-    color: white;
+    color: black;
     align-items: flex-end;
     display: flex;
     flex-direction: column;
@@ -12,19 +22,18 @@
 
 .name {
     font-size: 3rem;
-    font-family: 'Libre Caslon Text', serif;
+    font-family: 'Prata', serif;
     font-style: italic;
     font-weight: lighter;
     margin-right: 10rem;
     margin-bottom: 1rem;
-
 }
 
 .info {
     margin-top: 0;
-    font-family: 'Libre Caslon Text', serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
-
 
 .profilePic {
     margin: 6%;
